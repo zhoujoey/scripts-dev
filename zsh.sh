@@ -21,5 +21,6 @@ echo 'alias dps="docker ps -a"' >>~/.zshrc
 echo 'alias dimg="docker images"' >>~/.zshrc
 echo 'alias dexe="docker exec -it --user simulator"' >>~/.zshrc
 echo 'alias vpn="export HTTP_PROXY=http://127.0.0.1:7897; export HTTPS_PROXY=http://127.0.0.1:7897; export ALL_PROXY=socks5://127.0.0.1:7897"' >>~/.zshrc
+echo 'alias vpn2="export HTTP_PROXY=http://127.0.0.1:7890; export HTTPS_PROXY=http://127.0.0.1:7890; export ALL_PROXY=socks5://127.0.0.1:7890"' >>~/.zshrc
 zsh
 cd ~    
